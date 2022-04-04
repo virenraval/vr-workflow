@@ -1,0 +1,8 @@
+name: First
+on: push
+jobs:
+  windows:
+    runs-on: windows-latest
+    steps:
+    - run: date
+  
